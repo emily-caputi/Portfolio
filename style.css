@@ -2,7 +2,7 @@
 
 :root{
     --cor-principal: #aa98ff ;
-    --cor-secundaria: #284260;
+    --cor-secundaria: #283760;
     --cor-de-destaque: #c92bfc;
 }
 
@@ -10,6 +10,7 @@ body{
     background-color: rgb(3, 0, 34);
     font-family: 'Chakra Petch', sans-serif;
     color: var(--cor-principal);
+    font-weight: 500;
 }
 
 h1, h2, h5{
@@ -23,6 +24,7 @@ h4{
     text-align: center;
     margin: 0.7em;
 }
+
 
 .lead, .btn-link{
     color: var(--cor-de-destaque);
