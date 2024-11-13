@@ -31,10 +31,21 @@ h4{
     font-weight: 700;
 }
 
+.lista{
+    list-style-type: none;
+}
+
 a, .btn-link:hover{
     color: var(--cor-principal);
 }
 
 a:hover{
     color: var(--cor-de-destaque);
+}
+
+.texto{
+}
+
+.imagem-na-esquerda{
+    margin-right: 1.5em;
 }

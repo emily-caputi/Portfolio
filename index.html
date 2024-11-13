@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Portifolio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -14,7 +14,7 @@
     <header class="container text-center">
 
         <img src="img/Avatar.png" alt="meu Avatar" class="rounded-circle" width="150" height="150">
-        <p class="lead">Eu sou Emily</p>
+        <p class="lead">Meu nome é Emily</p>
         <h1>Sou estudante</h1>
         <p>Tenho objetivo de mostrar minhas produções durante as aulas de programação.</p>
         <p>Minhas habilidades</p>
@@ -30,6 +30,8 @@
 
     <main class="container mt-5">
 
+      <!--COLOCAR OS TEXTOS EM DIV UNICA, DAI DAR PAD, FICA COM MARGEM.-->
+
       <!--SITE 1-->
         <h2> Meus Projetos</h2>
 
@@ -37,11 +39,12 @@
 
           <h4>Primeiro projeto, site marcelo</h4>
 
-          <img src="img/image 1.svg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Primeiro projeto, site marcelo">
+          <img src="img/image 1.svg" class="col-md-6 float-md-start mb-3 ms-md-3 imagem-na-esquerda" alt="Primeiro projeto, site marcelo">
         
-          <p>
-            O primeiro site do ano, nada mais é que um informativo dos profissionais do Alura. Sobretudo do Marcelo, instrutor do curso. 
-            Todo o site foi feito com base nas orientações do instrutor, ou seja, baseado na plataforma Alura. 
+          <p class="texto" >
+            O primeiro site do ano, nada mais é que um informativo dos profissionais do Alura. Sobretudo do Marcelo,
+             instrutor do curso. Todo o site foi feito com base nas orientações do instrutor, ou seja, baseado na 
+             plataforma Alura. 
           </p>
         
           <p>É um site simples, com designs não muito elaborados, porém com informações pertinentes. Um trabalho divertido que contribuiu com os conhecimentos 
@@ -65,8 +68,9 @@
           </p>
 
           <p>
-          O site possui uma estrutura básica formada por HTML e CSS, que são essenciais para a criação de um site de qualidade. O HTML organiza o conteúdo de maneira 
-          lógica, enquanto o CSS proporciona uma apresentação visual atraente. Essa combinação garante uma experiência de navegação fluida e acessível. 
+          O site possui uma estrutura básica formada por HTML e CSS, que são essenciais para a criação de um site de 
+          qualidade. O HTML organiza o conteúdo de maneira lógica, enquanto o CSS proporciona uma apresentação visual 
+          atraente. Essa combinação garante uma experiência de navegação fluida e acessível. 
           </p>
 
 
@@ -81,7 +85,7 @@
 
           <h4>Alura Plus</h4>
 
-          <img src="img/image 3.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Terceiro projeto, Alura Plus">
+          <img src="img/image 3.png" class="col-md-6 float-md-start mb-3 ms-md-3 imagem-na-esquerda" alt="Terceiro projeto, Alura Plus">
 
           <p>
             “Alura Plus”, foi o  segundo site construído a partir da plataforma Alura, desenvolvido com as orientações da instrutora. 
@@ -94,13 +98,13 @@
 
         </div>
 
-
+        <!--SITE 4-->
         <div class="clearfix">
 
           <h4>Alunas</h4>
           <img src="img/image 4.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Quarto projeto, Alunas">
 
-          <p>
+          <p >
             O “Alunas”, é baseado no “Site Marcelo”,  com foco em apresentar um grupo de estudos e sua líder. Embora seja montado utilizando HTML e CSS, 
             o site não é responsivo. No entanto, ele incorpora elementos interativos que tornam a experiência do usuário mais envolvente e agradável.
           </p>
@@ -109,15 +113,15 @@
 
         </div>
 
-
+        <!--SITE 5-->
         <div class="clearfix">
 
           <h4>Alura Books</h4>
 
-          <img src="img/image 5.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Quinto projeto, Alura Books">
+          <img src="img/image 5.png" class="col-md-6 float-md-start mb-3 ms-md-3 imagem-na-esquerda" alt="Quinto projeto, Alura Books">
 
           <p>
-            O site foi desenvolvido seguindo as diretrizes da plataforma Alura, sendo o meu primeiro projeto responsivo. Seu design é simples e harmônico, 
+            O site foi desenvolvido seguindo as orientações da plataforma Alura, sendo o meu primeiro projeto responsivo. Seu design é simples e harmônico, 
             destacando a plataforma “Alura Books”, do grupo Alura, que oferece uma seleção de livros voltados para o aprendizado técnico.
           </p>
 
@@ -125,46 +129,40 @@
 
         </div>
 
-
-
+        <!--SITE 6-->
         <div class="clearfix">
 
           <h4>Biblioteca da Emily</h4>
           <img src="img/image 6.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Sexto projeto, Biblioteca da Emily">
 
           <p>
-           As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-          </p>
-
-          <p>
-            And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+            A biblioteca da Emily é um site responsivo, criado para apresentar minha coleção pessoal de livros. Inspirado 
+            no “Alura Books”, o site foi reformulado com novas imagens e paleta de cores únicas, dando uma nova cara para 
+            a produção.
           </p>
 
           <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal6">Veja o Projeto</button>
 
         </div>
 
-
+        <!--SITE 7-->
 
         <div class="clearfix">
 
           <h4>Flashcards</h4>
 
-          <img src="img/image 7.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Setimo projeto, Flashcards">
+          <img src="img/image 7.png" class="col-md-6 float-md-start mb-3 ms-md-3 imagem-na-esquerda" alt="Setimo projeto, Flashcards">
 
           <p>
-           As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+            O “Flashcards” é um site responsivo, ou seja, adapta-se a várias telas, facilitando o seu uso em qualquer 
+            lugar. Seu objetivo é cumprido de forma simples: ajudar no estudo de tópicos de maneira rápida. O site foi 
+            desenvolvido com as orientações da plataforma Alura.
           </p>
-
-         <p>
-           And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-         </p>
-
          <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal7">Veja o Projeto</button>
 
         </div>
 
-
+        <!--SITE 8-->
 
         <div class="clearfix">
 
@@ -172,36 +170,32 @@
           <img src="img/image 8.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Oitavo projeto, Flashcards Emily">
 
           <p>
-           As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-          </p>
-
-         <p>
-           And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-         </p>
+           O “Flashcards Emily” foi criado com base no site anterior, mas apresenta mudanças nas perguntas, 
+           nas cores e nas imagens, conferindo uma nova identidade ao projeto. </p>
 
          <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal8">Veja o Projeto</button>
 
         </div>
 
+        <!--SITE 9-->
 
         <div class="clearfix">
 
-          <h4>Portifólio</h4>
+          <h4>Portfólio</h4>
 
-          <img src="img/image 9.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Nono projeto, Portifolio">
+          <img src="img/image 9.png" class="col-md-6 float-md-start mb-3 ms-md-3 imagem-na-esquerda" alt="Nono projeto, Portifolio">
 
           <p>
-           As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+            O site trata-se de um portfólio que, como o próprio nome sugere, adapta-se a qualquer tema devido à sua 
+            simplicidade. Foi desenvolvido com base nas instruções da plataforma Alura e utiliza a estrutura básica de 
+            HTML e CSS.
           </p>
-
-         <p>
-           And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-         </p>
 
          <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal9">Veja o Projeto</button>
 
         </div>
 
+        <!--SITE 10-->
 
         <div class="clearfix">
 
@@ -211,8 +205,10 @@
           <p></p>
 
          <p>
-           And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-         </p>
+          O “Agrinho” é um site informativo e interativo, desenvolvido com o objetivo de participar 
+          do concurso Agrinho na categoria de programação. Ele aborda uma série de tópicos, oferecendo ao leitor 
+          uma visão básica sobre cada assunto.
+        </p>
 
          <button type="button" class="btn btn-link"  data-bs-toggle="modal" data-bs-target="#modal10">Veja o Projeto</button>
 
@@ -389,7 +385,21 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>(Seu texto descritivo)</p>
+              <p>O site “Biblioteca da Emily” foi desenvolvido usando o projeto “Alura Books” como base. 
+                Após seguir as instruções para a criação dos códigos e estilos, foi sugerido que o site fosse 
+                personalizado de acordo com meus interesses, e assim nasceu o Biblioteca da Emily.
+              </p>
+
+              <P>Este site utiliza HTML e CSS para criar uma interface interativa, com botões,
+                 menus hambúrguer e carrosséis, além de ser responsivo — adaptando-se a diferentes dispositivos 
+                 para uma experiência mais envolvente e acessível. A escolha das cores e imagens foi feita 
+                 cuidadosamente, com o objetivo de tornar a navegação agradável e visualmente atrativa.
+              </P>
+
+              <P>As cores escolhidas refletem um ambiente calmo e propício para a leitura, enquanto as 
+                imagens transmitem o acolhimento que se espera de uma biblioteca. E seu objetivo é apresentar os 
+                livro que possuo de uma maneira divertida.
+              </P>
               <img src="img/image 6.png" alt="imagem projeto 6"  class="img-fluid w-100">
             </div>
             <div class="modal-footer">
@@ -409,7 +419,16 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>(Seu texto descritivo)</p>
+              <p>O site “Flashcards” foi montado utilizando a plataforma Alura e suas instruções, foi feito de maneira 
+                rápida, utilizando  HTML, CSS e JavaScript, tornando a experiência com o usuário mais inclusiva. 
+              </p>
+              <p>Seu objetivo é transmitir informações sobre uma infinidade de temas de forma simples e rápida, 
+                sendo ideal para estudos acelerados e revisões.
+              </p>
+              <p>Visualmente, o site apresenta um design acolhedor e simples, melhorando ainda mais a 
+                experiência do usuário. O JavaScript adiciona elementos interativos, proporcionando uma 
+                navegação mais dinâmica.
+              </p>
               <img src="img/image 7.png" alt="imagem projeto 7"  class="img-fluid w-100">
             </div>
             <div class="modal-footer">
@@ -429,7 +448,13 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>(Seu texto descritivo)</p>
+              <p>O “Flashcards Emily” foi desenvolvido com base no site anterior, mas com mudanças significativas nas
+                 perguntas, nas cores e nas imagens de fundo, tudo pensado para dar uma nova identidade ao site.
+              </p>
+              <p>O novo tema reflete meus gostos pessoais e minha coleção literária, pela qual tenho grande apreço. 
+                A responsividade foi mantida, tornando o site ainda mais atrativo e fácil de usar, além dos controles de 
+                interatividade com o usuário e do HTML simplificado.
+              </p>
               <img src="img/image 8.png" alt="imagem projeto 8"  class="img-fluid w-100">
             </div>
             <div class="modal-footer">
@@ -445,11 +470,18 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Portifolio</h5>
+              <h5 class="modal-title">Portfolio</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>(Seu texto descritivo)</p>
+              <p>Este site é um modelo de portfólio desenvolvido com base nas instruções da plataforma Alura. 
+                Feito com HTML, CSS e Bootstrap, sua montagem foi rápida e simples. Devido à sua simplicidade, ele pode 
+                ser adaptado a qualquer tipo de conteúdo.
+              </p>
+              <p>Usei esse modelo como base para criar meu próprio portfólio, onde realizei algumas mudanças estruturais 
+                — cores e disposição de imagem e texto — para deixá-lo com a minha cara.
+              </p>
+              <p>Este também foi o último projeto realizado no ano, com o objetivo de reunir nossos trabalhos.</p>              </p>
               <img src="img/image 9.png" alt="imagem projeto 9"  class="img-fluid w-100">
             </div>
             <div class="modal-footer">
@@ -469,13 +501,36 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <p>(Seu texto descritivo)</p>
+              <p>O “Agrinho” é um site informativo, desenvolvido para a participação no concurso Agrinho, 
+                na categoria de programação. Foi o primeiro site elaborado por mim desde o zero, com todas as ideias, 
+                imagens e textos criados por mim.</p>
+                <p>O site é responsivo, adaptando-se a celulares, tablets e computadores. Utiliza a 
+                  estrutura básica de HTML e CSS, proporcionando um ambiente interativo com os usuários, 
+                  que podem usar botões, carrosséis, links e o menu hambúrguer disponíveis na página.
+                </p>
+                <p>Trabalhar com esse tema foi interessante, pois não é uma área de meu conhecimento. Durante o processo 
+                  de produção, tive a liberdade de expressar minha criatividade, o que resultou neste site, tão importante
+                   para meu aprendizado e experiência.
+                </p>
+                <p>O site contém informações relevantes sobre os seguintes tópicos: história da agricultura, agricultura 
+                  de precisão, agricultura de precisão no Paraná, sustentabilidade na agricultura e sustentabilidade no 
+                  dia a dia.
+                </p>
+                <p>Na competição, o site concorreu na divisão estadual (a mais alta do concurso), o que me deixou 
+                  muito feliz ao ver que meu trabalho e esforço foram reconhecidos!
+                </p>
               <img src="img/image 10.png" alt="imagem projeto 10"  class="img-fluid w-100">
             </div>
             <div class="modal-footer">
-              <a href="https://emily-caputi.github.io/Agrinho-do-campo-cidade-colhendo-oportunidades/">Ver projeto ao vivo</a>
-              <a href="https://github.com/emily-caputi/Agrinho-do-campo-cidade-colhendo-oportunidades">Ver código do projeto</a>
-            </div>
+              <ul class="lista">
+                <li class="item"><a href="https://www.figma.com/design/ZRGIgkT8iEZRuReYnH5SBn/Untitled?node-id=0-1&t=XtmcntINIz8UmpA6-1">Ver prototipo do projeto.</a>
+                </li>
+                <li class="item"><a href="https://emily-caputi.github.io/Agrinho-do-campo-cidade-colhendo-oportunidades/">Ver projeto ao vivo</a>
+                </li>
+                <li class="item"><a href="https://github.com/emily-caputi/Agrinho-do-campo-cidade-colhendo-oportunidades">Ver código do projeto</a>
+                </li>
+              </ul>
+              </div>
           </div>
         </div>
       </div>
